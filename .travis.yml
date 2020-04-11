@@ -1,0 +1,16 @@
+os: linux
+arch: amd64
+dist: bionic
+
+language: generic
+
+services:
+  - docker
+
+before_install:
+  - docker build -t $DOCKER_HUB_USERNAME/bionic-go .
+  - docker images
+
+install:
+  - docker login -u $DOCKER_HUB_USERNAME -p $DOCKER_HUB_PASSWORD
+  - docker push $DOCKER_HUB_USERNAME/bionic-go
