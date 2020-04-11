@@ -1,6 +1,6 @@
 # Bionic Go
 
-[![Build Status](https://travis-ci.org/iamdejan/bionic-rust.svg?branch=master)](https://travis-ci.org/iamdejan/bionic-rust)
+[![Build Status](https://travis-ci.org/iamdejan/bionic-go.svg?branch=master)](https://travis-ci.org/iamdejan/bionic-go)
 
 Docker image based on Ubuntu Bionic Beaver (18.04) with Go language installed.
 
